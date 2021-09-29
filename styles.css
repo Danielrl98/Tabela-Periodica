@@ -106,14 +106,7 @@ border-style: solid;
     height: 50px;
     background-color: #70CBEB;
     border-radius: 5%;}
-#numero{
-    position: relative;
-    left: 3.5%;
-    top: -8%;
-    font-size: 11px;
-    text-align: left;
-    color: black;
-    text-decoration: none;}
+
 #unico{
     text-align: center;
     color: black;
@@ -175,11 +168,18 @@ border-style: solid;
     top: 36%;
     left: 14.6%;}
 #Elemento{
-    text-align: center;
     color: black;
     position: relative;
     top: 36%;
-right: 2.6%;}
+    right: 2.6%;}
+#numero{
+    position: relative;
+    left: 3.5%;
+    top: -8%;
+    font-size: 10px;
+    color: black;
+    text-decoration: none ;
+}
 #lantanideos{
     border-style: solid;
     border-color: rgb(172, 171, 171);
@@ -202,3 +202,9 @@ right: 2.6%;}
     height: 50px;
     background-color: #DCADD6;
     border-radius: 5%;}
+#centoactinidios{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 36%;
+    right: 9.5%;}
