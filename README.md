@@ -9,6 +9,218 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Elementos Quimicos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{font-weight: bold; font-family: 'OpenSans', sans-serif; }
+h1{text-align: center;font-size: 28px;}
+div{display: inline-block;font-size: 17.5px; }
+body{background-color: rgb(253, 251, 251); margin-right: 6%; margin-left: 4%;}
+#tabela{position: relative;}
+#slide{min-width: 1250; /* força largura minima de 1024px*/}
+#naometais:hover{background-color: rgba(0, 0, 0, 0.308); ;}
+#naometais{
+
+border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #A1D344;
+    border-radius: 5%;}
+#metaisalcalinos{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 01;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #F1B200;
+    border-radius: 5%;}
+#metaisalcalino-terrosos{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #EADA00;
+    border-radius: 5%;}
+#metaisdetransicao{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #EB8E8E;
+    border-radius: 5%;}
+#outrosmetais{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #A2C7D3;
+    border-radius: 5%;}
+#semimetais{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #4DB6AC;
+    border-radius: 5%;}
+#semimetais{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #4DB6AC;
+    border-radius: 5%;}
+#gasesnobres{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #3D9EE3;
+    border-radius: 5%;}
+#halogenios{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #70CBEB;
+    border-radius: 5%;}
+
+#unico{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 36%;
+    left: 18.6%;}
+#quadradobranco1{
+        width: 905px;
+        height: 50px;
+        border-style: solid;
+        background-color: white;
+        border-style: solid;
+        border-color: white;
+        border-bottom-width: 1;
+        border-top-width: 1;
+        border-right-width: 1;
+        border-left-width: 1;}
+#quadradobranco2{
+        width: 563px;
+        height: 50px;
+        background-color: white;
+        border-style: solid;
+        border-color: white;
+        border-bottom-width: 1;
+        border-top-width: 1;
+        border-right-width: 1;
+        border-left-width: 1;}
+#quadradobranco3{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-style: solid;
+        border-color: white;
+        border-bottom-width: 1;
+        border-top-width: 1;
+        border-right-width: 1;
+        border-left-width: 1;}
+#circuloli{
+        width: 50px;
+        height: 50px;
+        background-color: #EADA00;
+        border-radius: 5%;}
+#circulobe{
+    width: 50px;
+    height: 50px;
+    background-color: #EADA00;
+    border-radius: 5%;}
+#Li{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 36%;
+    left: 14.6%;}
+
+#Be{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 36%;
+    left: 14.6%;}
+#Elemento{
+    color: black;
+    position: relative;
+    top: 36%;
+    right: 2.6%;}
+#numero{
+    position: relative;
+    left: 3.5%;
+    top: -8%;
+    font-size: 10px;
+    color: black;
+    text-decoration: none ;
+}
+#lantanideos{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #90E3E9;
+    border-radius: 5%;}
+#actinidios{
+    border-style: solid;
+    border-color: rgb(172, 171, 171);
+    border-bottom-width: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-left-width: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #DCADD6;
+    border-radius: 5%;}
+#centoactinidios{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 36%;
+    right: 9.5%;}
+    </style>
 </head> <!---Head-->
 <body>
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false"></body>
