@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html{font-weight: bold; font-family: 'OpenSans', sans-serif; }
-h1{text-align: center;font-size: 28px;}
+h1{font-size: 40px;}
 div{display: inline-block;font-size: 17.5px; }
 body{background-color: rgb(253, 251, 251); margin: 0;}
 #tabela{position: relative;}
@@ -206,9 +206,9 @@ border-style: solid;
     height: 50px;
     background-color: #DCADD6;
     border-radius: 5%;}
-#centoactinidios{
+#cento{
     text-align: center;
     color: black;
     position: relative;
     top: 36%;
-    right: 9.5%;}
+    right: 12.5%;}
