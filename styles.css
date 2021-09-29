@@ -2,10 +2,14 @@
 html{font-weight: bold; font-family: 'OpenSans', sans-serif; }
 h1{text-align: center;font-size: 28px;}
 div{display: inline-block;font-size: 17.5px; }
-body{background-color: rgb(253, 251, 251); margin-right: 6%; margin-left: 4%;}
+body{background-color: rgb(253, 251, 251); margin: 0;}
 #tabela{position: relative;}
 #slide{min-width: 1250; /* força largura minima de 1024px*/}
 #naometais:hover{background-color: rgba(0, 0, 0, 0.308); ;}
+.margindiv{
+position: relative;
+left:10%
+}
 #naometais{
 
 border-style: solid;
