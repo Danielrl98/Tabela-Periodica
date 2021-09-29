@@ -17,9 +17,8 @@ div{display: inline-block;font-size: 17.5px; }
 body{background-color: rgb(253, 251, 251); margin-right: 6%; margin-left: 4%;}
 #tabela{position: relative;}
 #slide{min-width: 1250; /* força largura minima de 1024px*/}
-#naometais:hover{background-color: rgba(0, 0, 0, 0.308); ;}
+#naometais:hover{background-color: rgba(0, 0, 0, 0.308);}
 #naometais{
-
 border-style: solid;
     border-color: rgb(172, 171, 171);
     border-bottom-width: 1;
@@ -118,7 +117,6 @@ border-style: solid;
     height: 50px;
     background-color: #70CBEB;
     border-radius: 5%;}
-
 #unico{
     text-align: center;
     color: black;
@@ -172,7 +170,6 @@ border-style: solid;
     position: relative;
     top: 36%;
     left: 14.6%;}
-
 #Be{
     text-align: center;
     color: black;
